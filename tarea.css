@@ -1,0 +1,50 @@
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+    border-radius: 50%;
+    border: 1px dashed #000;
+  }
+  
+  /* position relative
+      habilita las propiedades
+      de direccion
+      top, left, bottom, right.
+   */
+  
+  /* Para mover el elemento desde el lado derecho
+      se usan valores negativos
+      como left:-20px o right:20px */
+  .cajaRelative {
+    position: relative;
+    top: -33px;
+    left: 140px;
+  }
+  
+  
+  /* posicion fixed */
+  .cajaFixed {
+    position: fixed;
+    top: 30px;
+    right: 600px;
+    z-index: 1;
+  }
+  
+  /* 
+      position absolute 
+      hay 2 casos. 
+          1) los elementos se posicionan de forma absoluta con el documento
+              el documento es el area visible de la pagina
+          2) los elementos se posicionan de forma absoluta con el primer elemento padre
+              contenedor cuya posicion sea RELATIVA
+  */
+  .cajaAbsolute {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+  }
+  
+ 

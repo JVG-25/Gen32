@@ -1,0 +1,82 @@
+.caja {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 20px 0;
+    border: 1px dashed #000;
+  }
+  
+  .padreRelativo {
+    width: 400px;
+    height: 700px;
+    border: 1px solid red;
+    position: relative;
+  }
+  
+  .cajaAbsolute1 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 5%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  .cajaAbsolute2 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 5%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .cajaAbsolute3 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 30%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  .cajaAbsolute4 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 30%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .cajaAbsolute5 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 65%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  .cajaAbsolute6 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 65%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+  .cajaAbsolute7 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 89%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+  .cajaAbsolute8 {
+    position: absolute;
+  
+    /* con esto centramos elementos con position absolute */
+    top: 89%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+ 
